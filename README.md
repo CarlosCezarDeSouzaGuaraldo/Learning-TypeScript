@@ -6,7 +6,7 @@ npm v9.5.1
 
 # Folders
 
-## 01 - class
+## 01 - compiling
 
 compiling .ts file through the command:
 
