@@ -1,14 +1,16 @@
 # Learning-TypeScript
 
-typescript v5.1.3
-node v18.16.0
-npm v9.5.1
+<ol>
+  <li>TypeScript v5.1.3</li>
+  <li>Node v18.16.0</li>
+  <li>npm v9.5.1</li>
+</ol>
 
 # Folders
 
 ## 01 - compiling
 
-compiling .ts file through the command:
+Compiling .ts file through the command:
 
 ```shell
 $ tsc ~/index.ts -w
