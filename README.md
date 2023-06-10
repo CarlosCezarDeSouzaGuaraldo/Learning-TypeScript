@@ -31,7 +31,25 @@ This command will create the `tsconfig.json` file and will set the properties:
 <ul>
 	<li>`outDir` to specific the diretory where the files will be generated</li>
 	<li>`target` to set which is the JavaScript version that the files will be generated</li>
-	<li></li>
-	<li></li>
-	<li></li>
 </ul>
+
+## 03 - implicit types
+
+You can assign some value to the `variables`, `arrays`, and `objects` but you can't change the their type along the code
+
+### Wrong way: :x:
+```typescript
+// Typescript file
+let age = 23;
+age = '24';
+```
+> Your code will not compile, because typescript doesn't allow changing variables types along the code
+> <br>**Stay tuned**: if you started with a type you'll finalize with it.
+
+### Right way: ✔️
+```typescript
+// Typescript file
+let age = 23;
+age = 24;
+```
+You can change the value, but you **MUST** keep the type.
